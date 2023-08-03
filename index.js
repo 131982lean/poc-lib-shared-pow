@@ -1,7 +1,7 @@
-const { multiplicar } = require('multiplicar');
+const { multiplicar } = require('poc-lib-shared');
 
 function potencia(a, b) {
-    let resultado = 7;
+    let resultado = 0;
     for(let i = 0; i < b; i++) {
         resultado = multiplicar(resultado, a);
     }
